@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <center> <h1>The Admin Page </h1></center>
+  <p><h2>Click on the names of Employees to know more :
+  </h2></p>
+  <div class="box1">
+    <table class="table">
+      <caption class="title"><u>Employee details</u></caption>
+      <tr>
+          <th>Employee name</th>
+          <th>Employee number</th>
+          <th>Employee photo</th>
+      </tr>
+      <tr>
+
+          <td onclick="myFunction()">RAVI</td>
+          <p id="ravi"></p>
+          <td>6056146510</td>
+          <td><img src="https://avatars0.githubusercontent.com/u/33479836?v=4"width="280" 
+            height="150"alt="Ravi"></td>
+      </tr>
+   
+      <tr>
+          <td onclick="myRaju()">RAJU</td>
+          <p id="raju"></p>
+          <td>1501456230</td>
+          <td><img src="https://avatars.dicebear.com/api/open-peeps/stefan.svg" width="280" 
+            height="150"alt="Raju"></td>
+      </tr>
+      <tr>
+          <td onclick="myRamu()">RAMU</td>
+          <p id="ramu"></p>
+          <td>9012578901</td>
+          <td><img src="https://img.freepik.com/free-icon/man_318-487790.jpg?t=st=1672649064~exp=1672649664~hmac=e66997981a01b1b837365ebcbb993f4c1d0d77a1bc2f79c86ccdb31bb8ec9555" width="280"
+            height="150"alt="Ramu"></td>
+          </tr>
+      <tr>
+          <td onclick="myRagu()">RAGU</td>
+          <p id="ragu"></p>
+          <td>5001245874</td>
+          <td><img src="https://i.pinimg.com/originals/1d/a5/a0/1da5a0d16d1f7dd7e43b6da4b68cdf46.png" width="280"
+            height="150" alt="Ragu"></td>
+      </tr>
+  </table>
+  </div>
+
+  <script>
+  
+  function myRaju() {
+    document.getElementById("raju").innerHTML = "Raju is our cardio department head.Who is specialised in cardiologyLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum";
+  }
+  
+  
+  function myFunction() {
+    document.getElementById("ravi").innerHTML = "Ravi is Ortho department head.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum";
+  }
+  
+  
+  function myRamu() {
+    document.getElementById("ramu").innerHTML = "Ramu is our Medical Equipment department head.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum";
+  }
+  
+  
+  function myRagu() {
+    document.getElementById("ragu").innerHTML = "Ragu is our Skin specialist department head.Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum";
+  }
+  
+  
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+      
+</head>
+<body>
+    <center> <h1> GOVT HOSPITAL</h1> </center> 
+    <h2> ADMIN LOGIN PAGE </h2>  <br><br> 
+    <form>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required> 
+            <label>Password  :  </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  <br>
+            <button onclick="myFunction()">Login</button><br>
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>  <br> 
+            Forgot <a href="#"> password? </a>   
+        </div> 
+    </form>  
+    <p id="welcome"></p>
+            <a href="admin.html"> CLICK HERE TO CONTINUE</a>
+    
+    <script>
+        function myFunction() {
+          document.getElementById("welcome").innerHTML = "Welcome to the admin panel";
+        }
+        </script>
+        
+</body>
+</html>

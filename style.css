@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  }
+  button{
+    background-color:rgb(87, 229, 229);
+  }
+ h1{
+  color: rgb(43, 0, 255);
+ }
+ .box1 {
+  background-color: rgb(15, 125, 125);
+  width: 81%;
+  height:1058px;
+  padding-left: 121px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 35px;
+  border: 1px dotted;
+  color: aliceblue;
+}
+
+ .title{
+  color: rgb(201, 244, 44);
+ }
+ .table{
+  margin-left: -110px;
+ }
+ .micky{
+  width:"300";
+  height: "200";
+ }
+ h2{
+  color: navy;
+    margin-left: 65px;
+    height: 0px;
+ }
